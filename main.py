@@ -2,6 +2,7 @@ import requests
 import json
 import win32com.client as wincom
 # Make sure to download pywin32 by using the command  'pip install pywin32' before executing this line
+# i will also work if we use pywinauto
 
 while True:
     city = input("Enter the name of the city: ")
